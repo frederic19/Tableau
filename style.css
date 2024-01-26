@@ -1,0 +1,15 @@
+td, th{
+    border: 1px black solid;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    padding: 20px;
+    width: 90%;
+}
+caption {
+    caption-side: top;
+}
