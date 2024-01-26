@@ -3,15 +3,40 @@ td, th{
     text-align: center;
     vertical-align: middle;
     letter-spacing: 5px;
-    font-size: xx-large;
+    font-size: 20px;
 }
 
 table {
     border-collapse: collapse;
     padding: 20px;
     width: 90%;
+    box-shadow: 8px 8px 8px aqua;
 }
 caption {
     caption-side: top;
     font-size: xx-large;
 }
+body{
+    background: linear-gradient(to bottom left, #FB8500,#FFB703,#023047,#219EBC,#8ECAE6 ) ;
+}
+
+tr:hover{
+background-color: gray;
+}
+
+
+td:nth-child(even){
+    background-color: #fcf300;
+}
+
+td:nth-child(odd){
+    background-color: #00509d;
+}
+
+td:hover{
+    background-color: gray;
+    }
+
+    th {
+        background-color: #af9164;
+    }
